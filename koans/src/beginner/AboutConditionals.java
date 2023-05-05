@@ -15,7 +15,7 @@ public class AboutConditionals {
         if (true) {
             x++;
         }
-        assertEquals(x, __);
+        assertEquals(x, 2);
     }
 
     @Koan
@@ -27,7 +27,7 @@ public class AboutConditionals {
         } else {
             x--;
         }
-        assertEquals(x, __);
+        assertEquals(x, 0);
     }
 
     @Koan
@@ -42,7 +42,7 @@ public class AboutConditionals {
         } else {
             x--;
         }
-        assertEquals(x, __);
+        assertEquals(x, 10);
     }
 
     @Koan
@@ -58,7 +58,7 @@ public class AboutConditionals {
         else
             x--;
         // ...but they are recommended.
-        assertEquals(x, __);
+        assertEquals(x, 10);
     }
 
     @Koan
@@ -76,7 +76,7 @@ public class AboutConditionals {
         } else {
             x--;
         }
-        assertEquals(x, __);
+        assertEquals(x, 0);
     }
 
     @Koan
@@ -93,7 +93,7 @@ public class AboutConditionals {
             default:
                 result += "Nothing";
         }
-        assertEquals(result, __);
+        assertEquals(result, "Basic One");
     }
 
     @Koan
@@ -108,7 +108,7 @@ public class AboutConditionals {
             default:
                 result += "Nothing";
         }
-        assertEquals(result, __);
+        assertEquals(result, "Basic OneTwoNothing");
     }
 
     @Koan
